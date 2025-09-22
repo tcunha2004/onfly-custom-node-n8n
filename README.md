@@ -117,7 +117,6 @@ services:
       - DB_POSTGRESDB_USER=${DB_POSTGRESDB_USER}
       - DB_POSTGRESDB_PASSWORD=${DB_POSTGRESDB_PASSWORD}
       - DB_POSTGRESDB_SCHEMA=${DB_POSTGRESDB_SCHEMA}
-      # - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
     volumes:
       - n8n_data:/home/node/.n8n
       # a linha para montar o node será adicionada após o build

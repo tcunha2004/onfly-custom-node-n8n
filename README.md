@@ -31,6 +31,7 @@ Provedor: random.org
 
 ## Estrutura do repositório
 
+```
 .
 ├─ nodes/
 │ └─ RandomInt/
@@ -44,6 +45,7 @@ Provedor: random.org
 ├─ package.json # metadados do pacote n8n
 ├─ tsconfig.json # TypeScript (gera CommonJS)
 └─ README.md
+```
 
 ## Configuração (Docker Compose + PostgreSQL)
 
